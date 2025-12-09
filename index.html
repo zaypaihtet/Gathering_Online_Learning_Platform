@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home of Gathering Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+      <div class="container nav-inner">
+        <!-- Logo on the left (replace the div.logo with an <img> if you have a file) -->
+        <a class="brand" href="#" aria-label="Site Home">
+          <div class="logo" aria-hidden="true">LH</div>
+          <span class="name">Online Learning Platform</span>
+        </a>
+
+        <!-- Mobile toggle (checkbox hack, no JS) -->
+        <label
+          for="menu-toggle"
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-controls="primary-navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </label>
+        <input type="checkbox" id="menu-toggle" aria-hidden="true" />
+
+        <!-- Tabs on the right -->
+        <ul
+          id="primary-navigation"
+          class="nav-links"
+          role="menubar"
+          aria-label="Primary navigation"
+        >
+          <li role="none">
+            <a role="menuitem" class="active" href="index.html">Home</a>
+          </li>
+          <li role="none"><a role="menuitem" href="ebooks.html">E-books</a></li>
+          <li role="none">
+            <a role="menuitem" href="tutorials.html">Tutorials</a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="coding_problems.html">Coding Problems</a>
+          </li>
+          <li role="none">
+            <a role="menuitem" href="project_ideas.html">Project Ideas</a>
+          </li>
+          <li role="none"><a role="menuitem" href="about.html">About</a></li>
+          <li role="none">
+            <a role="menuitem" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Slide Section -->
+    <section class="slide">
+      <!-- Logo left -->
+      <div class="slide-logo">
+        <div class="slidelogo">Gathering</div>
+        <div class="slidelogotext">Online Learning Platform</div>
+      </div>
+
+      <!-- Orbiting Boxes -->
+      <div class="orbit">
+        <div class="box"><span class="icon">📚</span>E-books</div>
+        <div class="box"><span class="icon">🎥</span>Tutorials</div>
+        <div class="box"><span class="icon">💻</span>Coding Problems</div>
+        <div class="box"><span class="icon">💡</span>Project Ideas</div>
+      </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="categories" id="categories">
+      <h2 class="section-title">Categories</h2>
+
+      <div class="category-slider">
+        <div class="category-track">
+          <a href="#java" class="category-card">
+            <span class="icon">☕</span>
+            <h3>Java</h3>
+          </a>
+          <a href="#python" class="category-card">
+            <span class="icon">🐍</span>
+            <h3>Python</h3>
+          </a>
+          <a href="#csharp" class="category-card">
+            <span class="icon">#️⃣</span>
+            <h3>C#</h3>
+          </a>
+          <a href="#cpp" class="category-card">
+            <span class="icon">➕</span>
+            <h3>C++</h3>
+          </a>
+          <a href="#javascript" class="category-card">
+            <span class="icon">🟨</span>
+            <h3>JavaScript</h3>
+          </a>
+          <a href="#html" class="category-card">
+            <span class="icon">🌐</span>
+            <h3>HTML</h3>
+          </a>
+          <a href="#css" class="category-card">
+            <span class="icon">🎨</span>
+            <h3>CSS</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bestlocking" id="bestlocking">
+       <section class="popularBook" id="popularBook">
+      <h2 class="popular-title">Most Popular Books</h2>
+      <div class="mainrow">
+        <div class="maincol">
+          <img src="image/Java1.JPG" alt="" />
+          <a
+            href="https://www.google.com.mm/books/edition/Core_Java_for_Beginners_3rd_Edition/BUZVAQAAQBAJ?hl=en&gbpv=0"
+            >Core Java for Beginners, 3rd Edition</a
+          >
+          <p>Written by Rashmi Kanta Das</p>
+        </div>
+        <div class="maincol">
+          <img src="image/Python1.JPG" alt="" />
+          <a
+            href="https://www.google.com.mm/books/edition/Learn_Web_Development_with_Python/KSyBDwAAQBAJ?hl=en&gbpv=0"
+          >
+            Learn Web Development with Python Get Hands-on with Python
+            Programming and Django Web Development</a
+          >
+          <p>Written by Fabrizio Romano, Gaston C. Hillar, Arun Ravindran</p>
+        </div>
+
+        <div class="maincol">
+          <img src="image/HTML1.JPG" alt="" />
+          <a
+            href="https://www.google.com.mm/books/edition/Mastering_HTML_and_XHTML/ym8nKP7JdHwC?hl=en&gbpv=0"
+            >Mastering HTML and XHTML</a
+          >
+          <p>Written by Deborah S. Ray, Eric J. Ray</p>
+        </div>
+
+        <div class="maincol">
+          <img src="image/C++.JPG" alt="" />
+          <a
+            href="https://www.google.com.mm/books/edition/Sams_Teach_Yourself_C++_in_24_Hours/hklfknZ02eMC?hl=en&gbpv=0"
+          >Sams Teach Yourself C++ in 24 Hours</a>
+          <p>Written by Deborah Jesse Liberty</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
